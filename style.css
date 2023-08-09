@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* 글자 색을 흰색으로 변경 */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f55;
+}
+
+.blog-post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff; /* 배경색을 흰색으로 변경 */
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #f55;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.category {
+    font-style: italic;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar h2 {
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin-bottom: 10px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#sidebar a:hover {
+    color: #f55;
+}
+/* styles.css */
+#post-form {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+#post-form label, #post-form input, #post-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#post-list .post-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}

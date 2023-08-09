@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+
+        
+        <h1>우와, 여행이당~~</h1>
+<!-- <nav> 태그 내의 <ul> 요소에 카테고리 추가 -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul>
+            <!-- 메뉴 아이템들... -->
+        </ul>
+        <div id="online-users">
+            <p>Online Users:</p>
+            <ul id="user-list">
+                <!-- 여기에 접속자 목록이 동적으로 추가될 예정 -->
+            </ul>
+        </div>
+    </nav>
+    
+    </header>
+
+    <aside id="sidebar">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Adventure</a></li>
+            <!-- 더 많은 카테고리를 추가할 수 있습니다 -->
+        </ul>
+    </aside>
+
+    <section class="blog-post">
+        <img src="img/img.jpg" alt="Travel Photo">
+        <h2>Exploring Beautiful Places</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur, elit in vehicula interdum, justo nunc varius elit, vel finibus eros nisl sed quam.</p>
+        <a href="#" class="read-more">Read More</a>
+        <p class="category">Category: Destinations</p>
+    </section>
+
+    <section class="blog-post">
+        <img src="img/img.jpg" alt="Travel Photo">
+        <h2>Exploring Beautiful Places</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur, elit in vehicula interdum, justo nunc varius elit, vel finibus eros nisl sed quam.</p>
+        <a href="#" class="read-more">Read More</a>
+    </section>
+
+    <section class="blog-post">
+        <img src="img/img.jpg" alt="Travel Photo">
+        <h2>A Culinary Journey</h2>
+        <p>Suspendisse potenti. Ut vel odio eu arcu facilisis feugiat. Fusce auctor accumsan augue, non dictum quam auctor a. Sed non elit a libero interdum tincidunt.</p>
+        <a href="#" class="read-more">Read More</a>
+    </section>
+
+    <div id="post-form">
+        <h2>Create New Post</h2>
+        <form id="create-post-form">
+            <label for="post-title">Title:</label>
+            <input type="text" id="post-title" required>
+            <label for="post-content">Content:</label>
+            <textarea id="post-content" rows="4" required></textarea>
+            <button type="submit">Create Post</button>
+        </form>
+    </div>
+
+    <div id="post-list">
+        <!-- 게시글이 동적으로 추가될 공간 -->
+    </div>
+
+    <!-- More blog posts can be added here -->
+
+    <footer>
+        <p>&copy; 2023 Travel Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
